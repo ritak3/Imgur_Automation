@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="19.551">
+  <properties />
+  
+  
+            <testcase name="Homepage" time="19.551" classname="com_Imgur.HomePage_Gallery" />
+      
+</testsuite>

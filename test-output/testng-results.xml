@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[sign in]]>
+    </line>
+    <line>
+      <![CDATA[sign in]]>
+    </line>
+    <line>
+      <![CDATA[testcases fail]]>
+    </line>
+    <line>
+      <![CDATA[testcases passed]]>
+    </line>
+    <line>
+      <![CDATA[Next Post]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="63084" started-at="2018-01-02T08:13:24Z" finished-at="2018-01-02T08:14:27Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="63084" started-at="2018-01-02T08:13:24Z" finished-at="2018-01-02T08:14:27Z">
+      <class name="Imgur_TestCases.Post_Page">
+        <test-method status="PASS" signature="PostPage()[pri:0, instance:Imgur_TestCases.Post_Page@4fcd19b3]" name="PostPage" duration-ms="24767" started-at="2018-01-02T13:44:02Z" finished-at="2018-01-02T13:44:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Next Post]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PostPage -->
+      </class> <!-- Imgur_TestCases.Post_Page -->
+      <class name="Imgur_TestCases.Imgur_Login">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:Imgur_TestCases.Imgur_Login@5c18298f]" name="LoginTest" duration-ms="18452" started-at="2018-01-02T13:43:24Z" finished-at="2018-01-02T13:43:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[sign in]]>
+            </line>
+            <line>
+              <![CDATA[sign in]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- Imgur_TestCases.Imgur_Login -->
+      <class name="Imgur_TestCases.HomePage_Gallery">
+        <test-method status="PASS" signature="Homepage()[pri:0, instance:Imgur_TestCases.HomePage_Gallery@5204062d]" name="Homepage" duration-ms="19843" started-at="2018-01-02T13:43:43Z" finished-at="2018-01-02T13:44:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[testcases fail]]>
+            </line>
+            <line>
+              <![CDATA[testcases passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Homepage -->
+      </class> <!-- Imgur_TestCases.HomePage_Gallery -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
