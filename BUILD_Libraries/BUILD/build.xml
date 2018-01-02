@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project DEMO">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="D:/WebDriverFWONSFDC/DEMO/run.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="SOURCE_CODE.SFDC.GUIFORFRAMEWORK"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="D:/WebDriverFWONSFDC/DEMO/bin"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/poi-3.10-FINAL/poi-3.10-FINAL-20140208.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/poi-3.10-FINAL/poi-examples-3.10-FINAL-20140208.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/poi-3.10-FINAL/poi-excelant-3.10-FINAL-20140208.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/poi-3.10-FINAL/poi-ooxml-3.10-FINAL-20140208.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/poi-3.10-FINAL/poi-ooxml-schemas-3.10-FINAL-20140208.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/poi-3.10-FINAL/poi-scratchpad-3.10-FINAL-20140208.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/poi-3.10-FINAL/ooxml-lib/dom4j-1.6.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/poi-3.10-FINAL/ooxml-lib/stax-api-1.0.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/poi-3.10-FINAL/ooxml-lib/xmlbeans-2.3.0.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/poi-3.10-FINAL/lib/commons-codec-1.5.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/poi-3.10-FINAL/lib/commons-logging-1.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/poi-3.10-FINAL/lib/junit-4.11.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/poi-3.10-FINAL/lib/log4j-1.2.13.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/jfreechart-1.0.19/lib/jfreechart-1.0.19.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/jfreechart-1.0.19/lib/jcommon-1.0.23.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/jfreechart-1.0.19/lib/jfreesvg-2.0.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/jfreechart-1.0.19/lib/orsoncharts-1.4-eval-nofx.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/jfreechart-1.0.19/lib/orsonpdf-1.6-eval.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/jfreechart-1.0.19/lib/jfreechart-1.0.19-experimental.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/jfreechart-1.0.19/jfreechart-1.0.19-demo.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/javamail-1.4.7/mail.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/javamail-1.4.7/lib/dsn.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/javamail-1.4.7/lib/gimap.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/javamail-1.4.7/lib/imap.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/javamail-1.4.7/lib/mailapi.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/javamail-1.4.7/lib/pop3.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/javamail-1.4.7/lib/smtp.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/jaf-1.1.1/activation.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/java-json.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/jira-rest-java-client-0.2-m1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/WebDriverFWONSFDC/JAR/selenium-server-standalone-2.50.1.jar"/>
+        </jar>
+    </target>
+</project>
